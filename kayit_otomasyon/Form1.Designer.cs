@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.kaydet_button = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // kaydet_button
             // 
-            this.button1.Location = new System.Drawing.Point(237, 244);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.kaydet_button.Location = new System.Drawing.Point(237, 244);
+            this.kaydet_button.Name = "kaydet_button";
+            this.kaydet_button.Size = new System.Drawing.Size(75, 23);
+            this.kaydet_button.TabIndex = 0;
+            this.kaydet_button.Text = "kaydet";
+            this.kaydet_button.UseVisualStyleBackColor = true;
+            this.kaydet_button.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -78,7 +79,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.kaydet_button);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -89,7 +90,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button kaydet_button;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

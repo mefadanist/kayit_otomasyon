@@ -13,7 +13,7 @@ namespace kayit_otomasyon
 {
     public partial class Form1 : Form
     {
-
+        string baglantiyolu = "Data Source=veritabanim.db; Version=3;";
 
         
         public Form1()
@@ -22,6 +22,11 @@ namespace kayit_otomasyon
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
